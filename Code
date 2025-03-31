@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+	string a;
+
+	cout<<"Enter your Word:";
+	cin>>a;
+	
+	if (a== "ABACUS"){
+		cout<< "Invented around 400 years ago and believes to be the first computer.";
+	}else if (a== "NAPIER'S_BONE"){
+		cout<<"Invented by John Napier. In this device, he used 9 different ivory strings";
+	}else if (a== "PASCALINE"){
+		cout<<"Called Arithmetic Machine or Adding Machine. First mechanical and automatic calculator";
+	}else if (a== "LEIBNIZ_WHEEL"){
+		cout<<"Improving Pascal's Invention. It was made of fluted drums instead of gears";
+	}else if (a== "MARK I"){
+		cout<<"It was the first programmable digital computer making a new era in the computer world";    }else if (a== "ANALYTICAL ENGINE"){
+		cout<<"Developed by Charles Babbage in 1830 which was mechanical computer that used punch card as an input";
+	}else{
+		cout<<"No word found";
+	}
+	
+	return 0;
+}
